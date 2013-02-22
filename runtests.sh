@@ -2,8 +2,8 @@ set -e
 
 JSON='{
   "http server": {
-    "cmd": "python",
-    "args": ["-m", "SimpleHTTPServer"],
+    "cmd": "node_modules/simple-http-server/bin/server",
+    "args": ["-p", "8000"],
     "color": "red"
   },
   "test result collector": {
