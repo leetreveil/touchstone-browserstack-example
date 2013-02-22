@@ -1,0 +1,12 @@
+{
+  "name": "touchstone-browserstack-example",
+  "version": "0.0.0",
+  "description": "example qunit test suite for integration with browserstack and touchstone",
+  "dependencies": {
+    "qunit": "~0.5.15",
+    "browserstack-cli": "~0.2.4",
+    "dictator": "git+ssh://git@github.com:leetreveil/dictator.git",
+    "qunitjs": "~1.11.0",
+    "touchstone": "git+ssh://git@github.com:leetreveil/touchstone.git"
+  }
+}
