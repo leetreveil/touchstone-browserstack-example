@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>touchstone-browserstack-example JASMINE</title>
+    <link rel='stylesheet' href='jasmine/jasmine.css'>
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE"/>
+</head>
+<body>
+    <script src='jasmine/jasmine.js'></script>
+    <script src='jasmine/jasmine-html.js'></script>
+    <script src="node_modules/touchstone/tsend.js"></script>
+
+    <script type='text/javascript'>
+
+        describe('jasmine', function () {
+            it('is awesome', function () {
+                expect('z').toBe('z');
+            });
+        });
+
+        describe('browserstack', function () {
+            it('is awesome', function () {
+                expect('z').toBe('z');
+            });
+        });
+
+    </script>
+
+    <script type="text/javascript">
+        (function() {
+            var jasmineEnv = jasmine.getEnv();
+            var htmlReporter = new jasmine.HtmlReporter();
+            jasmineEnv.addReporter(htmlReporter);
+            jasmineEnv.execute();
+        })();
+    </script>
+
+</body>
+</html>

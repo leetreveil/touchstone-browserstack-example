@@ -21,7 +21,7 @@ JSON='{
   },
   "test runner": {
     "cmd": "node_modules/browserstack-cli/bin/cli.js",
-    "args": ["launch", "--attach", "ie:10.0", "http://localhost:8000/test.html"],
+    "args": ["launch", "--attach", "ie:10.0", "http://localhost:8000/test-jasmine.html"],
     "deps": ["tunnel"],
     "color": "yellow"
   }

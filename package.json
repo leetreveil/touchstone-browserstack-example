@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "description": "example javascript test suite for integration with browserstack and the touchstone test runner",
   "dependencies": {
-    "qunit": "~0.5.15",
     "browserstack-cli": "~0.2.4",
     "dictator": "git+ssh://git@github.com:leetreveil/dictator.git",
     "qunitjs": "~1.11.0",
